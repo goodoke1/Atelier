@@ -3,6 +3,12 @@
 __pycache__/
 node_modules/
 .DS_Store
+
+# OS
+.DS_Store
+
+# Documentation
+fashion_case_study.docx
 .env
 
 # App Data
