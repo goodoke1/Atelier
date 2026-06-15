@@ -1,3 +1,84 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper text-ink font-body antialiased;
+    background-image: radial-gradient(
+      circle at 1px 1px,
+      rgba(17, 16, 14, 0.04) 1px,
+      transparent 0
+    );
+    background-size: 22px 22px;
+  }
+  ::selection {
+    @apply bg-accent text-paper;
+  }
+}
+
+@layer components {
+  /* Editorial eyebrow / kicker label */
+  .eyebrow {
+    @apply font-mono text-[11px] uppercase tracking-widest text-muted;
+  }
+
+  .hairline {
+    @apply border-t border-ink/15;
+  }
+
+  /* Masonry layout via CSS columns — gives the lookbook collage feel. */
+  .masonry {
+    column-gap: 1.25rem;
+    column-count: 1;
+  }
+  @media (min-width: 640px) {
+    .masonry {
+      column-count: 2;
+    }
+  }
+  @media (min-width: 1024px) {
+    .masonry {
+      column-count: 3;
+    }
+  }
+  @media (min-width: 1536px) {
+    .masonry {
+      column-count: 4;
+    }
+  }
+  .masonry > * {
+    break-inside: avoid;
+    margin-bottom: 1.25rem;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-ink/15 bg-paper px-3 py-1 text-xs text-ink/80 transition;
+  }
+  .chip-active {
+    @apply border-ink bg-ink text-paper;
+  }
+
+  .skeleton {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.05) 25%,
+      rgba(0, 0, 0, 0.09) 37%,
+      rgba(0, 0, 0, 0.05) 63%
+    );
+    background-size: 400% 100%;
+    @apply animate-shimmer;
+  }
+}
+
+/* Custom scrollbar to keep the editorial feel in panels */
+.scroll-thin::-webkit-scrollbar {
+  width: 8px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: rgba(17, 16, 14, 0.18);
+  border-radius: 99px;
+}
