@@ -1,0 +1,652 @@
+[
+  {
+    "filename": "extra_1488463.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "minimalist|formal",
+      "material": "polyester",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "office",
+      "color_palette": "red, gray",
+      "location_context": "indoor|store"
+    }
+  },
+  {
+    "filename": "extra_1564424.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "sporty",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "athletic|casual",
+      "color_palette": "red, blue",
+      "location_context": "street|urban"
+    }
+  },
+  {
+    "filename": "extra_1689731.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "fall/winter",
+      "occasion": "casual",
+      "color_palette": "black",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "extra_1721558.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "utilitarian",
+      "material": "wool",
+      "pattern": "solid",
+      "season": "fall/winter",
+      "occasion": "outdoor",
+      "color_palette": "black, gray, blue",
+      "location_context": "outdoor|sky"
+    }
+  },
+  {
+    "filename": "extra_1813947.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "denim",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "black",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "extra_1844012.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "pattern": "striped",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "cream, yellow",
+      "location_context": "outdoor|amusement park"
+    }
+  },
+  {
+    "filename": "extra_794064.jpg",
+    "expected": {
+      "garment_type": "knitwear",
+      "style": "vintage|streetwear",
+      "material": "knit",
+      "pattern": "floral",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "pink, brown",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_001.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "casual|streetwear",
+      "material": "denim",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "blue, orange",
+      "location_context": "studio|outdoor"
+    }
+  },
+  {
+    "filename": "pexels_002.jpg",
+    "expected": {
+      "garment_type": "shirt|dress",
+      "style": "casual",
+      "material": "cotton",
+      "pattern": "striped",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "blue, white",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_003.jpg",
+    "expected": {
+      "garment_type": "blouse|dress",
+      "style": "vintage|romantic",
+      "material": "silk",
+      "pattern": "polka dot",
+      "season": "transitional",
+      "occasion": "evening",
+      "color_palette": "black, white",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_004.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "white, green",
+      "location_context": "indoor|store"
+    }
+  },
+  {
+    "filename": "pexels_005.jpg",
+    "expected": {
+      "garment_type": "knitwear",
+      "style": "streetwear",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "fall/winter",
+      "occasion": "casual",
+      "color_palette": "yellow",
+      "location_context": "urban|outdoor"
+    }
+  },
+  {
+    "filename": "pexels_006.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "casual|minimalist",
+      "material": "knit",
+      "pattern": "solid",
+      "season": "fall/winter",
+      "occasion": "casual",
+      "color_palette": "yellow",
+      "location_context": "outdoor|steps"
+    }
+  },
+  {
+    "filename": "pexels_007.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "formal|romantic",
+      "material": "polyester",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "evening",
+      "color_palette": "pink",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_008.jpg",
+    "expected": {
+      "garment_type": "shirt",
+      "style": "minimalist|bohemian",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "white, beige",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_009.jpg",
+    "expected": {
+      "garment_type": "coat",
+      "style": "vintage|minimalist",
+      "material": "wool",
+      "pattern": "solid",
+      "season": "fall/winter",
+      "occasion": "casual",
+      "color_palette": "pink, black",
+      "location_context": "outdoor"
+    }
+  },
+  {
+    "filename": "pexels_010.jpg",
+    "expected": {
+      "garment_type": "accessory",
+      "style": "vintage|minimalist",
+      "material": "leather",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "brown",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_011.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "denim",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "blue, white",
+      "location_context": "street|urban"
+    }
+  },
+  {
+    "filename": "pexels_012.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual|sporty",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "black, gray",
+      "location_context": "indoor"
+    }
+  },
+  {
+    "filename": "pexels_013.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "bohemian|romantic",
+      "material": "chiffon",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "outdoor|resort",
+      "color_palette": "pink, beige",
+      "location_context": "nature|outdoor"
+    }
+  },
+  {
+    "filename": "pexels_014.jpg",
+    "expected": {
+      "garment_type": "knitwear",
+      "style": "streetwear",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "fall/winter",
+      "occasion": "casual",
+      "color_palette": "black, red",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_015.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "vintage|formal",
+      "material": "silk",
+      "pattern": "abstract",
+      "season": "transitional",
+      "occasion": "formal",
+      "color_palette": "red, gold",
+      "location_context": "indoor|studio"
+    }
+  },
+  {
+    "filename": "pexels_017.jpg",
+    "expected": {
+      "garment_type": "activewear",
+      "style": "sporty|streetwear",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "athletic",
+      "color_palette": "mustard, yellow",
+      "location_context": "outdoor"
+    }
+  },
+  {
+    "filename": "pexels_018.jpg",
+    "expected": {
+      "garment_type": "shirt",
+      "style": "casual",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "lavender, gray",
+      "location_context": "street|urban"
+    }
+  },
+  {
+    "filename": "pexels_019.jpg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "casual|sporty",
+      "material": "denim",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "white, blue",
+      "location_context": "outdoor"
+    }
+  },
+  {
+    "filename": "pexels_020.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "streetwear",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "yellow, gray",
+      "location_context": "outdoor|street"
+    }
+  },
+  {
+    "filename": "pexels_021.jpg",
+    "expected": {
+      "garment_type": "knitwear",
+      "style": "vintage",
+      "material": "wool",
+      "pattern": "animal print",
+      "season": "fall/winter",
+      "occasion": "casual",
+      "color_palette": "black, white, brown",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_022.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "polyester",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "yellow, white",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_024.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "white, blue",
+      "location_context": "indoor|store"
+    }
+  },
+  {
+    "filename": "pexels_025.jpg",
+    "expected": {
+      "garment_type": "knitwear",
+      "style": "casual",
+      "material": "knit",
+      "pattern": "solid",
+      "season": "fall/winter",
+      "occasion": "casual",
+      "color_palette": "brown",
+      "location_context": "outdoor"
+    }
+  },
+  {
+    "filename": "pexels_027.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "casual|streetwear",
+      "material": "denim",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "blue, orange",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_028.jpg",
+    "expected": {
+      "garment_type": "coat",
+      "style": "formal",
+      "material": "wool",
+      "pattern": "solid",
+      "season": "fall/winter",
+      "occasion": "outdoor",
+      "color_palette": "black",
+      "location_context": "outdoor|street"
+    }
+  },
+  {
+    "filename": "pexels_030.jpg",
+    "expected": {
+      "garment_type": "coat",
+      "style": "romantic",
+      "material": "wool",
+      "pattern": "solid",
+      "season": "fall/winter",
+      "occasion": "casual",
+      "color_palette": "pink",
+      "location_context": "outdoor"
+    }
+  },
+  {
+    "filename": "pexels_031.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "romantic",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "white",
+      "location_context": "indoor"
+    }
+  },
+  {
+    "filename": "pexels_032.jpg",
+    "expected": {
+      "garment_type": "blouse|shirt",
+      "style": "casual",
+      "material": "linen|cotton",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "white, blue",
+      "location_context": "outdoor"
+    }
+  },
+  {
+    "filename": "pexels_033.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "sporty",
+      "material": "polyester",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "outdoor",
+      "color_palette": "white",
+      "location_context": "outdoor"
+    }
+  },
+  {
+    "filename": "pexels_034.jpg",
+    "expected": {
+      "garment_type": "blouse",
+      "style": "romantic",
+      "material": "chiffon",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "evening",
+      "color_palette": "white, mint green",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_040.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "minimalist",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "evening",
+      "color_palette": "black",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_041.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "polyester",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "yellow, white",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_042.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "vintage",
+      "material": "silk",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "yellow, white",
+      "location_context": "outdoor"
+    }
+  },
+  {
+    "filename": "pexels_044.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "white",
+      "location_context": "indoor|store"
+    }
+  },
+  {
+    "filename": "pexels_046.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "denim",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "blue, white",
+      "location_context": "urban|street"
+    }
+  },
+  {
+    "filename": "pexels_047.jpg",
+    "expected": {
+      "garment_type": "shirt|blouse",
+      "style": "casual",
+      "material": "cotton",
+      "pattern": "striped",
+      "season": "spring/summer",
+      "occasion": "casual",
+      "color_palette": "black, white",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_048.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "formal",
+      "material": "silk",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "evening",
+      "color_palette": "black",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_049.jpg",
+    "expected": {
+      "garment_type": "coat",
+      "style": "romantic",
+      "material": "wool",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "pink, black",
+      "location_context": "outdoor"
+    }
+  },
+  {
+    "filename": "pexels_051.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "bohemian",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "spring/summer",
+      "occasion": "outdoor",
+      "color_palette": "pink",
+      "location_context": "nature|outdoor"
+    }
+  },
+  {
+    "filename": "pexels_052.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "preppy",
+      "material": "cotton",
+      "pattern": "geometric",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "black, white",
+      "location_context": "indoor|studio"
+    }
+  },
+  {
+    "filename": "pexels_053.jpg",
+    "expected": {
+      "garment_type": "knitwear",
+      "style": "casual",
+      "material": "knit",
+      "pattern": "animal print",
+      "season": "fall/winter",
+      "occasion": "casual",
+      "color_palette": "gray, black",
+      "location_context": "indoor"
+    }
+  },
+  {
+    "filename": "pexels_058.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "formal",
+      "material": "polyester",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "evening",
+      "color_palette": "black",
+      "location_context": "studio"
+    }
+  },
+  {
+    "filename": "pexels_060.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "cotton",
+      "pattern": "solid",
+      "season": "transitional",
+      "occasion": "casual",
+      "color_palette": "black, white, beige",
+      "location_context": "indoor|urban"
+    }
+  }
+]
